@@ -36,5 +36,5 @@ jobs:
           ssh geoffrey@141.94.77.149 '
           cd /home/geoffrey/weathergilannt
           /usr/bin/git pull origin main
-          /usr/bin/SCREEN -S weathergilant -d -m /usr/bin/python3 /home/geoffrey/weathergilannt/index.py'
+          /usr/bin/screen -S weathergilant -d -m /usr/bin/python3 /home/geoffrey/weathergilannt/index.py'
 
